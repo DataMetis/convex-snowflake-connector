@@ -32,7 +32,7 @@ jobs:
             exit 1
           fi
 
-      - run: bun install --frozen-lockfile
+      - run: npm ci
 
       - run: bun run build
 
