@@ -5,6 +5,14 @@
   "description": "CLI and library for full-refresh syncing Convex deployments into Snowflake",
   "author": "Convex Snowflake Connector",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataMetis/convex-snowflake-connector.git"
+  },
+  "homepage": "https://github.com/DataMetis/convex-snowflake-connector#readme",
+  "bugs": {
+    "url": "https://github.com/DataMetis/convex-snowflake-connector/issues"
+  },
   "bin": {
     "convex-snowflake-connector": "./dist/cli.js"
   },
