@@ -1,0 +1,14 @@
+src/
+tests/
+coverage/
+scripts/
+.lefthook.yml
+.prettierrc.json
+.prettierignore
+eslint.config.mjs
+tsconfig.json
+tsup.config.ts
+vitest.config.ts
+justfile
+CLAUDE.md
+*.tsbuildinfo
