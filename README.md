@@ -156,7 +156,11 @@ Each command supports `--help` for full flag listings.
 The library exports the same building blocks the CLI uses:
 
 ```ts
-import { sync, loadConfig, openSession } from "@datametis/convex-snowflake-connector";
+import {
+  sync,
+  loadConfig,
+  openSession,
+} from "@datametis/convex-snowflake-connector";
 
 // `yes: true` acknowledges that sync replaces target Snowflake table
 // contents non-recoverably. Convex is not modified — this tool only reads
