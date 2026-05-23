@@ -38,8 +38,5 @@ jobs:
 
       - run: bun run build
 
-      - name: Show npm version
-        run: npm --version
-
       - run: npm publish --provenance --access public
 
